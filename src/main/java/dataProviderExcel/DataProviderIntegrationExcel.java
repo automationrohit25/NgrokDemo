@@ -8,22 +8,8 @@ import org.testng.annotations.Test;
 
 public class DataProviderIntegrationExcel {
 	
-	@Test(dataProvider = "driveTest")
-	public void testcaseData() {
-		
+	public static void main(String[] args) {
+		System.out.println("hello world");
 	}
-
-	
-	@DataProvider(name="driveTest")
-	public Object[][] getData() throws Exception{
-		
-//		Object[][] data = {{"hello", "text","1"},{"bye", "mesage", "143"},{"solo", "call", "453"}};
-//		return data;
-		
-		FileInputStream fis = new FileInputStream("C:\\Users\\rohit\\Desktop\\exceldriven .xlsx");
-//		XSSFWorkbook
-		return null;
-		
-		}
 	}
 
