@@ -7,9 +7,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class DataProviderIntegrationExcel {
-	
-	public static void main(String[] args) {
+
+	@Test
+	public void m2() {
 		System.out.println("hello world");
 	}
-	}
-
+}
